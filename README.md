@@ -1,1 +1,0 @@
-# alankrut.github.io
