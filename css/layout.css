@@ -28,6 +28,11 @@ body { background: #0f0f0f; }
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
+sup {
+    font-size:xx-small;
+    vertical-align:super;
+}
+
 header {
    position: relative;
    height: 800px;
@@ -263,7 +268,9 @@ ul#nav li.current a { color: #F06000; }
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
-
+#resume p span {
+   color: #000;
+}
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
