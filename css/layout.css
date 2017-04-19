@@ -74,6 +74,7 @@ header .banner-text h3 {
    color: #A8A8A8;
    margin: 0 auto;
    width: 70%;
+   
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
 header .banner-text h3 span,
@@ -169,18 +170,18 @@ ul#nav li a {
 
 /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
 
-   display: inline-block;
-   padding: 8px 13px;
-   line-height: 32px;
-	text-decoration: none;
-   text-align: left;
-   color: #fff;
+    display: inline-block;
+    padding: 8px 13px;
+    line-height: 32px;
+    text-decoration: none;
+    text-align: left;
+    color: #fff;
 
-	-webkit-transition: color .2s ease-in-out;
-	-moz-transition: color .2s ease-in-out;
-	-o-transition: color .2s ease-in-out;
-	-ms-transition: color .2s ease-in-out;
-	transition: color .2s ease-in-out;
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    -ms-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
 }
 
 ul#nav li a:active { background-color: transparent !important; }
@@ -215,6 +216,7 @@ ul#nav li.current a { color: #F06000; }
 #about p {
    line-height: 30px;
    color: #7A7A7A;
+   text-align: justify;
 }
 #about .profile-pic {
    position: relative;
@@ -249,7 +251,7 @@ ul#nav li.current a { color: #F06000; }
 #resume {
    background: #fff;
    padding-top: 90px;
-   padding-bottom: 72px;
+   padding-bottom: 20px;
    overflow: hidden;
 }
 
@@ -267,6 +269,9 @@ ul#nav li.current a { color: #F06000; }
 }
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
+}
+#resume p {
+    text-align: justify;
 }
 #resume p span {
    color: #000;
@@ -424,17 +429,58 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
-   padding-top: 90px;
-   padding-bottom: 60px;
+   background: #fff;
+   padding-top: 10px;
+   padding-bottom: 72px;
+   overflow: hidden;
 }
+
 #portfolio h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#portfolio h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#portfolio h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+#portfolio h4 {
    font: 15px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
    color: #95A3A3;
+}
+#portfolio p {
+    text-align: justify;
+}
+#portfolio p span {
+   color: #000;
+}
+#portfolio .header-col { padding-top: 9px; }
+#portfolio .main-col { padding-right: 10%; }
+#portfolio .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#portfolio .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#portfolio .fa {
+    font-size: 12px; 
+}
+#portfolio .hlink {
+    color: #000
+}
+#portfolio .details{
+    margin-left: 40px;
 }
 
 /* Portfolio Content */
