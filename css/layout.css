@@ -276,6 +276,10 @@ ul#nav li.current a { color: #F06000; }
 #experience p span {
    color: #000;
 }
+#experience ul {
+   padding-top: 2px;
+   text-align: justify;
+}
 #experience .header-col { padding-top: 9px; }
 #experience .main-col { padding-right: 10%; }
 

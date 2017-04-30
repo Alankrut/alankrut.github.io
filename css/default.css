@@ -343,10 +343,10 @@ li p { }
 }
 .stats-tabs li a {
 	display: inline-block;
-	font-size: 22px;
+	font-size: 18px;
 	font-family: 'opensans-bold', sans-serif;
    border: none;
-   color: #313131;
+   color: #11ABB0;
 }
 .stats-tabs li a:hover {
    color:#11ABB0;
@@ -356,7 +356,7 @@ li p { }
 	margin: 6px 0 0 0;
 	font-size: 13px;
 	font-family: 'opensans-regular', sans-serif;
-   color: #8B9798;
+   color: #11ABB0;
 }
 
 /* definition list */
