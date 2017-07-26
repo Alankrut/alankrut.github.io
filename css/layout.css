@@ -361,6 +361,9 @@ ul#nav li.current a { color: #F06000; }
 #projects .details{
     margin-left: 40px;
 }
+#projects .app{
+    color: #6E7881;
+}
 
 /* ------------------------------------------------------------------ */
 /* i. Footer
