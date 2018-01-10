@@ -275,6 +275,9 @@ ul#nav li.current a { color: #F06000; }
 #experience p span {
    color: #000;
 }
+#experience li span {
+   color: #000;
+}
 #experience ul {
    padding-top: 2px;
    text-align: justify;
