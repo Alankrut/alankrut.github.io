@@ -38,9 +38,8 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
-   background-size: cover !important;
-	-webkit-background-size: cover !important;
+   background: #212E71 url("images/header-mountains.jpg") bottom left;
+   background-repeat: repeat-x;
    text-align: center;
    overflow: hidden;
 }
@@ -63,17 +62,29 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   /* font: 90px/1.1em 'opensans-bold', sans-serif; */
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 4.35em;
+   font-weight: 900;
+   letter-spacing: -0.035em;
+   line-height: 1em;
    color: #fff;
-   letter-spacing: -2px;
+   /* letter-spacing: -2px; */
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
-   margin: 0 auto;
-   width: 70%;
+   /* font: 18px/1.9em 'opensans', sans-serif; */
+   font-family: 'Source Sans Pro', sans-serif;
+   color: #ffffff;
+   /* margin: 0 auto;
+   letter-spacing: +1px;
+   width: 70%; */
+
+   font-size: 1.25em;
+   margin: 0.75em 0 0.25em 0;
+   opacity: 0.75;
+
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
 header .banner-text h3 span,
