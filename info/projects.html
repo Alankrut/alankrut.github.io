@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <!--- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Projects - Alankrut Patel</title>
+    <meta name="description" content="Projects - Alankrut Patel">
+    <meta name="author" content="Alankrut Patel">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/layout_detail.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+
+   <!-- Script
+   ================================================== -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- Google Analytics -->	
+    <script>	
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){	
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),	
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)	
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');	
+  
+        ga('create', 'UA-97558081-1', 'auto');	
+        ga('send', 'pageview');	
+      </script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+</head>
+
+<body>
+    <button class="kc_fab_main_btn"><a title="Back to Home" href="../index.html">&#60;</a></button>
+    <!-- Projects Section
+    ================================================== -->
+    <section id="projects">
+        <div class="row skill">
+            <div class="three columns header-col">
+                <h1><span>Projects</span></h1>
+            </div>
+
+            <div class="nine columns main-col">
+                <div class="row item">
+                    <div class="twelve columns">
+                        <h3><a href="https://github.com/Alankrut/MQTT-IoT-Sensor" title="View On GitHub" class="hlink">IoT Multi-Sensor <i class="fa fa-link"></i></a></h3>
+                        <p class="info">Sensor which posts data to a server</p>
+                        <p>
+                            Using an <span>ESP8266 microchip</span>, I created a custom <span>Internet of Things Multi-Sensor</span>.This sensor is capable of detecting motion, temperature, humidity, luminance, and carbon monoxide. The chip connects to the network via Wi-Fi and uses MQTT to post to a <span>MQTT Server</span> running on my desktop. Some effeciency measures are also implemented, such as polling the sensors after certain intervals. The programming is done primarily in <span>C++</span> using <span>Arduino IDE</span>.
+                        </p>
+                    </div>
+                </div>
+                <div class="row item">
+                    <div class="twelve columns">
+                        <h3>Home Automation</h3>
+                        <p class="info">Using a python based H.A. server</p>
+                        <p>
+                            Currently using an open source python based home automation server to automate my home. <a href="https://home-assistant.io/">Home Assistant</a> is a wonderful tool to get started with bridging the gaps between current day home automation hubs/devices. I have configured our setup at home to meet the needs of the family; this consists of monitoring of temperature, motion, state of devices in order to perform the appropriate action, such as sending a notification. This setup even allows control via <span>Google Home</span> and <span>Amazon Echo</span>. I have utilized <span>linux</span> to stand up the server and <span>python</span> to configure this platform.
+                        </p>
+                    </div>
+                </div>
+                <div class="row item">
+                    <div class="twelve columns">
+                        <h3><a href="https://github.com/Alankrut/ESP8266-CryptoTracker" title="View On GitHub" class="hlink">Crypto Tracker <i class="fa fa-link"></i></a></h3>
+                        <p class="info">Crypto currency price monitoring device</p>
+                        <p>
+                            Using an esp8266 microprocesser at its core, I created a crypto currency price monitoring tool with a screen. This device utilizes the <a href="https://www.cryptocompare.com/api">cryptocompare api</a> via webservice calls. The user can configure which crypto they'd like to track, the frequency in which to reload, as well as which fiat currency to compare to.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- End Skills -->
+        <div class="row skill">
+            <div class="three columns header-col">
+                <h1><span>Android Apps</span></h1>
+            </div>
+
+            <div class="nine columns main-col">
+                <div class="row item">
+                    <div class="twelve columns">
+                        <h3>Smart Actions</h3>
+                        <p class="info">Simple weather application to learn Kotlin and Google APIs</p>
+                        <p>
+                            Allows the user to set up triggers which (when fired) perform a set of actions. For example, when the user is at work, the Region Trigger would active and put the phone into silent mode (VolumeAction), turn down the music volume (VolumeAction), turn off bluetooth (BluetoothAction) and turn down the brightness (DisplayAction).
+                            <br/><br/>
+                            The implementation of triggers and actions is done in a modular way so that more can be added easily. This API can eventually be opened up to developers, allowing them to create their own triggers and actions.
+                        </p>
+                        </p>
+                    </div>
+                </div>
+                <div class="row item">
+                    <div class="twelve columns">
+                        <h3>Simple Weather</h3>
+                        <p class="info">Simple weather application to learn Kotlin and Google APIs</p>
+                        <p>
+                            The primary objective of this project is so I can learn to utilize Google's Snapshot API in a real world application. This is a simple weather application which will use the Snapshot API to get the weather information at the user's current location. This project was done to get familiar working with the Google APIs.
+                        </p>
+                    </div>
+                </div>
+                <div class="row item">
+                    <div class="twelve columns">
+                        <h3>Apps from Google Play Store</h3>
+                        <p class="info">Published several applications on the Google Play Store</p>
+                        <p>
+                            In the past I have published and supported several applications on the Google Play Store. I have since removed them from the Play Store due to the fact that Google has implemented similar functionality natively into the Android OS.
+                        </p>
+
+                        <b class="app">Power WiFi</b>
+                        <ul class="features">
+                            <li>Power Wifi allows for actions to be taken based off the presence of power. For example when you sleep at night, you can plug in the phone and have the ringer silenced and the alarm volume raised. This adds convenience to a users life by taking care of tasks which are normally preformed manually.</li>
+                        </ul>
+
+                        <b class="app">RiLo (Ring Louder)</b>
+                        <ul class="features">
+                            <li>Allows the phone to ring, even if on silent, when a specified person calls for the n<sup>th</sup> time. This is useful for ensuring an important call (spouse, parent, child, manager, etc.) is not missed. This feature can also be used to locate a misplaced phone which is on silent mode.</li>
+                        </ul>
+    
+                        <b class="app">Seer (Silence Everything Except Ringer)</b>
+                        <ul class="features">
+                            <li>Seer fixes a design issue which was introduced in Android 4.0, which is not being able to have seperate volume levels for ringer and notifications.</li>
+                        </ul>
+    
+                        <b class="app">Auto Off</b>
+                        <ul class="features">
+                            <li>Auto Off helps the user conserve battery by disabling Wifi/Bluetooth when not in use. The user sets up a specified timeout, once the device is disconnected from the network and the timeout period occurs, the wifi radio is disabled. This functions similarly for bluetooth devices.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- End Skills -->
+    </section> <!-- Projects Section End-->
+</body>
+
+</html>
